@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>게시판 작성폼</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="title">
+      학급 웹 알림장
+    </div>
+  </header>
+  <main class="main">
+    <div class="imgWrap">
+      <img src="../img/write.png" alt="알림장 이미지" class="img">
+      <button class="btn">공지사항 작성</button>
+    </div>
+    <div class="imgWrap">
+      <img src="../img/look.jpg" alt="공지하는 이미지" class="img">
+      <button class="btn">공지사항 보기</button>
+    </div>
+  </main>
+  <div class="background">
+
+  </div>
+  <div class="Notice_pop">
+    <header class="Notice_header">
+      <div></div>
+      <div class="Notice_title">공지하기</div>
+      <button class="exit_btn">돌아가기</button>
+    </header> 
+    <main class="Noticemain">
+      <div class="nameWrap">
+        <p>이름: </p>
+        <input type="text" class="name" placeholder="이름을 입력하세요">
+      </div>
+      <div class="Notice_content">
+        <p>내용: </p>
+        <textarea name="Notification" id="Notification" cols="30" rows="10"></textarea>
+      </div>
+      <div class="Notice_footer">
+        <button class="submitBtn">
+          등록
+        </button>
+      </div>
+    </main>
+  </div>
+  <div class="readNotice">
+    <div class="readHeader">
+      Today 알림장
+    </div>
+    <div class="wrap">
+      <div class="mainContent">
+        <div class="textBox">
+          <h3>서울디지텍고등학교 2학년 3반</h2>
+            <div class="today">
+              Today
+            </div>
+            <div class="today_date"></div>
+        </div>
+        <ol>
+
+        </ol>
+      </div>
+      <div class="btnwrap">
+        <button class="exit">돌아가기</button>
+      </div>
+    </div>
+  </div>
+  <script src="./script/app.js"></script>
+</body>
+
+</html>
