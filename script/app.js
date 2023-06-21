@@ -23,9 +23,10 @@ write_noticeBtn.addEventListener("click", () => {
   write_notice.firstElementChild.lastElementChild.addEventListener(
     "click",
     () => {
-      document
-        .querySelector(".background")
-        .setAttribute("style", "display:none;");
+      document.querySelector(".background").setAttribute(
+        "style",
+        "display:none;"
+      );
       write_notice.setAttribute("style", "display:none");
     }
   );
